@@ -1,5 +1,5 @@
 import numpy as np 
-import cowsay.cow as print
+import cowsay as printer
 import functions as fun
 
 
