@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="515.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Controls.Students">
+   <children>
+      <TableView fx:id="Table" layoutX="45.0" layoutY="58.0" prefHeight="405.0" prefWidth="710.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="121.0" text="Номер зачетки" />
+          <TableColumn fx:id="nameColumn" prefWidth="188.0" text="Имя" />
+            <TableColumn fx:id="fnameColumn" minWidth="0.0" prefWidth="137.0" text="Фамилия" />
+            <TableColumn fx:id="groupColumn" minWidth="0.0" prefWidth="160.0" text="Группа" />
+            <TableColumn fx:id="facColumn" prefWidth="103.0" text="Факультет" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
